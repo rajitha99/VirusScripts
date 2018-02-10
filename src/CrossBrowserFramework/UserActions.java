@@ -56,7 +56,6 @@ public String getRandomnumber(int noofdigits)
 	
 	Calendar cal=Calendar.getInstance();
 	String time=cal.getTimeInMillis()+"";
-
 try
 {
 return time.substring((time.length()-noofdigits),time.length());
